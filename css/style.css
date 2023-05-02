@@ -115,6 +115,7 @@ footer ul li a {
 
 /*APARTADO PAGINA 2 CONTACTO*/
 
+
 .contenedor-contacto {
     display: grid;
     grid-template-rows: 300px 100px 250px;
@@ -360,6 +361,11 @@ footer ul li a {
 
 
 /*APARTADO PAGINA 5 SOBRE NOSOTROS*/
+
+
+#cont-sobrenostros {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .contenedor-subtytextosobrenosotros {
     flex-flow: column;
