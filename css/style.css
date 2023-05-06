@@ -16,29 +16,31 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: blue;
-    background-color: lightblue;
+    color: black;
+    background-color: rgb(185, 175, 175);
     padding: 5px;
-    border: 3px solid yellow;
+    border: 3px solid black;
     border-radius: 15px;
 }
 
 
 .boton-inicio {
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 3px solid gray;  
 }
 
 footer ul {
     list-style: none;
-    border: 7px solid black;
+    border: 5px solid black;
+    border-radius: 8px;
     background-color: rgb(185, 175, 175);
+    padding: 9px;
 }
 
 footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-left: 500px;
 }
 
@@ -65,23 +67,26 @@ footer ul li a {
     background-color: rgb(194, 187, 187);
     border: 5px solid grey;
     border-radius: 10px;
+    min-width: 35%;
+    max-height: 660px;
+    overflow: auto;
 }
 
 .contenedor-img {
     flex-flow: column;
+    width: 47%;
 }
 
 .img-inicio {
     margin-right: 660px;
-    margin-left: 80px;
+    margin-left: 300px;
     width: 220px;
     border: 6px solid black;
     border-radius: 5px;
-    margin-top: 20px;
 }
 
 .img2-inicio {
-    margin-left: 80px;
+    margin-left: 300px;
     width: 220px;
     border: 6px solid black;
     border-radius: 5px;
@@ -92,8 +97,9 @@ footer ul li a {
     border: 6px solid black;
     border-radius: 5px;
     margin-top: 20px;
+    margin-left: 450px;
+    width: 50%;
 }
-
 
 .contenedor-aside {
     flex-flow: column;
@@ -110,6 +116,7 @@ footer ul li a {
     border: 3px solid rgb(41, 99, 41);
     border-radius: 7px;
     background-color: rgb(207, 195, 195);
+    margin: 30px;
 }
 
 
