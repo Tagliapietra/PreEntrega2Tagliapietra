@@ -11,7 +11,6 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-right: 15px;
 }
 
 header nav ul li a {
@@ -35,13 +34,14 @@ footer ul {
     border: 5px solid black;
     border-radius: 8px;
     background-color: rgb(185, 175, 175);
-    padding: 9px;
+    padding: 11px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 footer ul li {
     display: inline;
-    margin-right: 40px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 footer ul li a {
@@ -67,37 +67,38 @@ footer ul li a {
     background-color: rgb(194, 187, 187);
     border: 5px solid grey;
     border-radius: 10px;
-    min-width: 35%;
+    min-width: 36%;
     max-height: 660px;
     overflow: auto;
 }
 
 .contenedor-img {
-    flex-flow: column;
-    width: 47%;
+    display: flex;
 }
 
 .img-inicio {
-    margin-right: 660px;
-    margin-left: 300px;
-    width: 220px;
+    margin-top: 170px;
+    margin-left: 150px;
+    margin-right: 40px;
+    width: 250px;
     border: 6px solid black;
     border-radius: 5px;
 }
 
 .img2-inicio {
-    margin-left: 300px;
     width: 220px;
+    margin-left: 30px;
     border: 6px solid black;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 160px;
+    margin-right: 40px;
 }
 
 .iframe {
     border: 6px solid black;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 450px;
+    margin-left: 400px;
     width: 50%;
 }
 
@@ -109,7 +110,7 @@ footer ul li a {
 .tituloaside {
     font-size: 25px;
     color: green;
-    margin-left: 800px;
+    margin-left: 100px;
 }
 
 .infoaside { 
@@ -125,26 +126,28 @@ footer ul li a {
 
 .contenedor-contacto {
     display: grid;
-    grid-template-rows: 300px 100px 250px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
 }
 
 .contenedor-whatsapp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
 
-.cont-viawhatsapp {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    font-size: 25px;
+.via-whatsapp {
+    justify-self: center;
+    align-self: center;
+    font-size: 30px;
 }
 
 .cont-iralchatyclick {
     display: grid; 
+    grid-template-columns: 1fr;
     justify-items: center;
     align-content: space-evenly;
     font-size: 22px;
@@ -183,28 +186,25 @@ footer ul li a {
 .contenedor-gmail {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     border-bottom: 1px solid black;
 }
 
-.cont-tambienpor {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    font-size: 18px;
+.tambienpor {
+    justify-self: center;
+    align-self: center;
+    font-size: 35px;
 }
 
-.cont-palabragmail {
-    display: grid;
-    justify-content: end;
-    align-content: center;
+.palabra-gmail {
+    justify-self: end;
+    align-self: center;
 }
 
-.cont-migmail {
-    display: grid;
-    align-content: center;
-}
 
 .gmail-contacto {   
+    justify-self: start;
+    align-self: center;
     text-decoration: none;
     font-size: 18px;
     margin-left: 3px;
@@ -214,6 +214,7 @@ footer ul li a {
 .contenedor-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     border-bottom: 1px solid black;
 }
 
@@ -224,21 +225,19 @@ footer ul li a {
 .desc-form {
     font-size: 22px;
     color: rgb(21, 21, 144);
+    margin-left: 10px;
 }
 
 .form {
-    justify-self: center;
+    justify-self: end;
     margin-bottom: 50px;
     font-size: 25px;
 }
 
-.cont-enviar {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-
 .boton-enviar {
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
     text-decoration: none;
     border: 1px solid gray;
     border-radius: 5px;
@@ -284,60 +283,38 @@ footer ul li a {
     width: 400px;
 }
 
-.contenedor-imginteres {
-    flex-flow: column;
-    padding-bottom: 30px;
-    margin-left: 600px;
-}
-
-.cont-imgs {
-    display: flex;
-}
-
-.img-interes {
-    height: 30px;
-    width: 15px;
-    padding: 20px;
-    border: 1px solid red;
-    margin-bottom: 2px;
-    margin-left: 74px;
-}
 
 /*APARTADO PAGINA 4 REDES*/
 
-.ul-redes {
-    list-style: none;
+.div-redes {
     display: flex;
     justify-content: space-evenly;
-    margin-right: 90px;
-    margin-top: 90px;
-    padding-bottom: 100px;
-    align-items: center;
+    margin: 80px;
 }
 
 .nombre-instagram {
+    margin-left: 25px;
     text-decoration: none; 
     color: black;
     font-size: 22px;
-    margin-left: 36px; 
 }
 
 .nombre-twitter { 
+    margin-left: 45px;
     text-decoration: none;
     color: black;
     font-size: 22px;
-    margin-left: 53px;
 }
 
-.nombre-facebook {    
+.nombre-facebook {   
+    margin-left: 30px; 
     text-decoration: none; 
     color: black;
     font-size: 22px;
-    margin-left: 40px;
 }
 
 .fa-instagram {
-    margin-top: 30px;
+    margin-top: 50px;
     color: white;
     font-size: 120px;
     border: 3px solid black;
@@ -347,7 +324,7 @@ footer ul li a {
 }
 
 .fa-twitter{
-    margin-top: 30px;
+    margin-top: 50px;
     color: white;
     font-size: 120px;
     border: 3px solid black;
@@ -357,7 +334,7 @@ footer ul li a {
 }
 
 .fa-facebook {
-    margin-top: 30px;
+    margin-top: 50px;
     color: white;
     font-size: 120px;
     border: 3px solid black;
@@ -387,6 +364,7 @@ footer ul li a {
 
 .subtitulo-sobrenosotros {
     color: rgb(43, 43, 133);
+    margin-left: 15px;
 }
 
 .texto-sobrenosotros {
@@ -394,18 +372,22 @@ footer ul li a {
     margin-right: 140px;
     border: 5px solid grey;
     border-radius: 10px;
+    margin-left: 15px;
+    max-height: 300px;
+    overflow: auto;
 }
 
 .cont-masinfo {
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-.masinfo {
+.boton-masinfo {
     text-decoration: none;
     color: rgb(137, 221, 137);
     background-color: rgb(116, 116, 156);
     border: 2px solid grey;
     border-radius: 4px;
     padding: 9px;
+    
 }
